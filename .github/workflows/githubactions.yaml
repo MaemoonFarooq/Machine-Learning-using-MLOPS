@@ -45,12 +45,9 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-      - name: Merge test → dev
-        env:
-          TOKEN: ${{ secrets.MLOPSPROJECT }}
+      - name: Merge test into dev
         run: |
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
           git fetch origin
           git checkout dev
-          git merge origin/test --no-edit
-          git push origin dev
+          git merge origin/test --no-ff -m "Auto-merge from test to dev via GitHub Actions"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/MaemoonFarooq/MLOPS_Project dev
