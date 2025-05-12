@@ -443,3 +443,38 @@
 [2025-05-12T22:43:50.886+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:43:50.886+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:43:50.905+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:43:50.905+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:40:00+00:00, run_after=2025-05-12T17:42:00+00:00
 [2025-05-12T22:43:51.002+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.145 seconds
+[2025-05-12T22:44:43.619+0500] {processor.py:157} INFO - Started process (PID=74281) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:44:43.620+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-12T22:44:43.620+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:44:43.620+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:44:43.628+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:44:43.642+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:44:43.641+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:44:43.660+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:44:43.660+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:42:00+00:00, run_after=2025-05-12T17:44:00+00:00
+[2025-05-12T22:44:43.764+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.148 seconds
+[2025-05-12T22:45:35.794+0500] {processor.py:157} INFO - Started process (PID=74452) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:45:35.830+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-12T22:45:35.832+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:45:35.831+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:45:35.841+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:45:35.854+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:45:35.854+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:45:35.871+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:45:35.871+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:42:00+00:00, run_after=2025-05-12T17:44:00+00:00
+[2025-05-12T22:45:35.948+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.157 seconds
+[2025-05-12T22:46:25.846+0500] {processor.py:157} INFO - Started process (PID=74581) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:46:25.847+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-12T22:46:25.848+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:46:25.848+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:46:25.856+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:46:25.871+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:46:25.871+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:46:25.893+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:46:25.893+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:44:00+00:00, run_after=2025-05-12T17:46:00+00:00
+[2025-05-12T22:46:26.004+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.162 seconds
+[2025-05-12T22:47:20.647+0500] {processor.py:157} INFO - Started process (PID=75471) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:47:20.648+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-12T22:47:20.648+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:47:20.648+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:47:20.655+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:47:20.667+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:47:20.667+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:47:20.687+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:47:20.687+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:44:00+00:00, run_after=2025-05-12T17:46:00+00:00
+[2025-05-12T22:47:20.788+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.143 seconds
+[2025-05-12T22:48:19.647+0500] {processor.py:157} INFO - Started process (PID=76159) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:48:19.648+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-05-12T22:48:19.648+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:48:19.648+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:48:19.656+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-05-12T22:48:19.670+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:48:19.670+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:48:19.691+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:48:19.691+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2025-05-12T17:46:00+00:00, run_after=2025-05-12T17:48:00+00:00
+[2025-05-12T22:48:19.920+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.276 seconds
