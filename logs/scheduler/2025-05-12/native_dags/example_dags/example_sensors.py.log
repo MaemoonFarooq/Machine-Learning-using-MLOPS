@@ -604,3 +604,52 @@
 [2025-05-12T23:06:08.102+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:06:08.101+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T23:06:08.112+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:06:08.112+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2025-05-12T23:06:08.208+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.145 seconds
+[2025-05-12T23:07:02.936+0500] {processor.py:157} INFO - Started process (PID=83815) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:02.951+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:07:02.952+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:02.951+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:02.961+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:02.985+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:02.985+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:07:02.996+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:02.996+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:07:03.085+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.153 seconds
+[2025-05-12T23:07:57.333+0500] {processor.py:157} INFO - Started process (PID=83900) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:57.334+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:07:57.335+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:57.334+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:57.344+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:07:57.368+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:57.367+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:07:57.383+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:07:57.383+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:07:57.467+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.137 seconds
+[2025-05-12T23:08:49.405+0500] {processor.py:157} INFO - Started process (PID=84690) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:08:49.484+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:08:49.485+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:08:49.484+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:08:49.493+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:08:49.510+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:08:49.510+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:08:49.519+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:08:49.519+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:08:50.498+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 1.095 seconds
+[2025-05-12T23:09:44.876+0500] {processor.py:157} INFO - Started process (PID=84882) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:09:44.877+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:09:44.878+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:09:44.877+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:09:44.885+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:09:44.902+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:09:44.901+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:09:44.910+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:09:44.910+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:09:44.997+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.123 seconds
+[2025-05-12T23:10:35.990+0500] {processor.py:157} INFO - Started process (PID=85007) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:10:36.008+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:10:36.009+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:10:36.008+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:10:36.016+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:10:36.033+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:10:36.032+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:10:36.041+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:10:36.041+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:10:36.128+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.140 seconds
+[2025-05-12T23:20:15.611+0500] {processor.py:157} INFO - Started process (PID=87683) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:20:15.612+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:20:15.613+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:20:15.612+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:20:15.621+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:20:15.640+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:20:15.640+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:20:15.649+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:20:15.649+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:20:15.730+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.122 seconds
+[2025-05-12T23:21:14.211+0500] {processor.py:157} INFO - Started process (PID=87945) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:21:14.218+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-12T23:21:14.219+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:21:14.219+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:21:14.227+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-12T23:21:14.243+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:21:14.242+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T23:21:14.251+0500] {logging_mixin.py:151} INFO - [2025-05-12T23:21:14.251+0500] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-12T23:21:14.382+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.173 seconds
