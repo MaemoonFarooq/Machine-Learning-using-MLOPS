@@ -163,3 +163,115 @@
 [2025-05-12T22:07:10.558+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:07:10.558+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:07:10.581+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:07:10.581+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2025-05-12T22:07:10.658+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.131 seconds
+[2025-05-12T22:08:04.470+0500] {processor.py:157} INFO - Started process (PID=68005) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:04.471+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:08:04.472+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:04.471+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:04.478+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:04.491+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:04.491+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:08:04.506+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:04.506+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:08:04.667+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.199 seconds
+[2025-05-12T22:08:55.836+0500] {processor.py:157} INFO - Started process (PID=68103) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:55.837+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:08:55.838+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:55.837+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:55.844+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:08:55.858+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:55.857+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:08:55.872+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:08:55.872+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:08:55.952+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.118 seconds
+[2025-05-12T22:09:45.726+0500] {processor.py:157} INFO - Started process (PID=68214) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:09:45.727+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:09:45.728+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:09:45.728+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:09:45.734+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:09:45.747+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:09:45.747+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:09:45.762+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:09:45.762+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:09:45.838+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.115 seconds
+[2025-05-12T22:10:39.862+0500] {processor.py:157} INFO - Started process (PID=68549) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:10:39.863+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:10:39.864+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:10:39.863+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:10:39.874+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:10:39.892+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:10:39.892+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:10:39.915+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:10:39.915+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:10:40.009+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.150 seconds
+[2025-05-12T22:11:34.174+0500] {processor.py:157} INFO - Started process (PID=68637) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:11:34.175+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:11:34.176+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:11:34.176+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:11:34.182+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:11:34.198+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:11:34.198+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:11:34.216+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:11:34.216+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:11:34.313+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.142 seconds
+[2025-05-12T22:12:21.823+0500] {processor.py:157} INFO - Started process (PID=68734) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:12:21.824+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:12:21.825+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:12:21.824+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:12:21.831+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:12:21.845+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:12:21.845+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:12:21.860+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:12:21.860+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:12:21.953+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.132 seconds
+[2025-05-12T22:13:13.317+0500] {processor.py:157} INFO - Started process (PID=68832) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:13:13.319+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:13:13.320+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:13:13.319+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:13:13.328+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:13:13.346+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:13:13.346+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:13:13.365+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:13:13.365+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:13:13.455+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.143 seconds
+[2025-05-12T22:14:00.017+0500] {processor.py:157} INFO - Started process (PID=68902) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:00.018+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:14:00.018+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:00.018+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:00.027+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:00.043+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:00.043+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:14:00.062+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:00.062+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:14:00.148+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.134 seconds
+[2025-05-12T22:14:47.620+0500] {processor.py:157} INFO - Started process (PID=68996) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:47.620+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:14:47.621+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:47.621+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:47.628+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:14:47.641+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:47.641+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:14:47.656+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:14:47.656+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:14:47.745+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.128 seconds
+[2025-05-12T22:15:40.603+0500] {processor.py:157} INFO - Started process (PID=69073) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:15:40.622+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:15:40.622+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:15:40.622+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:15:40.628+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:15:40.642+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:15:40.642+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:15:40.657+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:15:40.657+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:15:40.744+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.144 seconds
+[2025-05-12T22:16:34.262+0500] {processor.py:157} INFO - Started process (PID=69199) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:16:34.308+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:16:34.309+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:16:34.308+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:16:34.315+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:16:34.330+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:16:34.330+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:16:34.347+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:16:34.347+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:16:34.441+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.183 seconds
+[2025-05-12T22:17:28.912+0500] {processor.py:157} INFO - Started process (PID=69368) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:17:28.913+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:17:28.914+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:17:28.913+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:17:28.919+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:17:28.933+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:17:28.933+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:17:28.949+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:17:28.948+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:17:29.039+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.129 seconds
+[2025-05-12T22:18:20.432+0500] {processor.py:157} INFO - Started process (PID=69519) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:18:20.451+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:18:20.452+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:18:20.451+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:18:20.458+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:18:20.471+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:18:20.471+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:18:20.487+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:18:20.487+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:18:20.790+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.360 seconds
+[2025-05-12T22:19:15.546+0500] {processor.py:157} INFO - Started process (PID=69618) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:19:15.570+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:19:15.571+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:19:15.571+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:19:15.577+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:19:15.598+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:19:15.597+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:19:15.627+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:19:15.626+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:19:15.726+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.185 seconds
+[2025-05-12T22:20:09.185+0500] {processor.py:157} INFO - Started process (PID=69721) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:20:09.201+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:20:09.202+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:09.202+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:20:09.208+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:20:09.221+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:09.221+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:20:09.236+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:09.236+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:20:09.328+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.146 seconds
+[2025-05-12T22:21:03.360+0500] {processor.py:157} INFO - Started process (PID=69882) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:21:03.361+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2025-05-12T22:21:03.361+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:03.361+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:21:03.367+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2025-05-12T22:21:03.382+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:03.382+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:21:03.398+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:03.397+0500] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2025-05-12T22:21:03.514+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.157 seconds
