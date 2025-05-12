@@ -240,3 +240,24 @@
 [2025-05-12T22:21:16.183+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:16.183+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:21:16.193+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:16.193+0500] {dag.py:3722} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
 [2025-05-12T22:21:16.285+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.164 seconds
+[2025-05-12T22:22:10.899+0500] {processor.py:157} INFO - Started process (PID=70140) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:22:10.909+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-05-12T22:22:10.910+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:10.909+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:22:10.924+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:22:10.962+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:10.962+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:22:10.971+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:10.971+0500] {dag.py:3722} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-05-12T22:22:11.068+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.171 seconds
+[2025-05-12T22:23:05.160+0500] {processor.py:157} INFO - Started process (PID=70232) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:05.162+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-05-12T22:23:05.162+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:05.162+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:05.177+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:05.218+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:05.217+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:23:05.227+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:05.227+0500] {dag.py:3722} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-05-12T22:23:05.322+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.164 seconds
+[2025-05-12T22:23:59.593+0500] {processor.py:157} INFO - Started process (PID=70394) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:59.611+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2025-05-12T22:23:59.612+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:59.611+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:59.636+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2025-05-12T22:23:59.698+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:59.697+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:23:59.711+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:59.710+0500] {dag.py:3722} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2025-05-12T22:23:59.803+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.212 seconds

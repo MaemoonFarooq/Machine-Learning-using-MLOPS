@@ -405,3 +405,36 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2025-05-12T22:21:13.161+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:13.161+0500] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2025-05-12T22:21:13.161+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2025-05-12T22:21:13.170+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2025-05-12T22:22:08.486+0500] {processor.py:157} INFO - Started process (PID=70137) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:22:08.509+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-05-12T22:22:08.510+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:08.509+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:22:08.513+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:08.512+0500] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-05-12T22:22:08.513+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:08.513+0500] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-05-12T22:22:08.514+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:22:08.522+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.038 seconds
+[2025-05-12T22:23:01.440+0500] {processor.py:157} INFO - Started process (PID=70229) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:01.451+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-05-12T22:23:01.453+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:01.452+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:01.457+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:01.456+0500] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-05-12T22:23:01.458+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:01.458+0500] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-05-12T22:23:01.458+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:01.472+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.035 seconds
+[2025-05-12T22:23:55.866+0500] {processor.py:157} INFO - Started process (PID=70363) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:55.882+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2025-05-12T22:23:55.883+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:55.883+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:55.887+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:55.886+0500] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2025-05-12T22:23:55.887+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:55.887+0500] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2025-05-12T22:23:55.887+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2025-05-12T22:23:55.895+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.032 seconds

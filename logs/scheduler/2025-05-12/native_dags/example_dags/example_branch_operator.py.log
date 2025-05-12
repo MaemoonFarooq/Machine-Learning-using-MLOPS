@@ -198,3 +198,17 @@
 [2025-05-12T22:21:22.584+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:22.583+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:21:22.603+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:22.603+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
 [2025-05-12T22:21:22.703+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.158 seconds
+[2025-05-12T22:22:42.756+0500] {processor.py:157} INFO - Started process (PID=70209) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:22:42.765+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-12T22:22:42.766+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:42.766+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:22:42.777+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:22:42.798+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:42.798+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:22:42.821+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:42.820+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T22:22:42.945+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.191 seconds
+[2025-05-12T22:24:04.361+0500] {processor.py:157} INFO - Started process (PID=70402) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:24:04.372+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2025-05-12T22:24:04.374+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:04.373+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:24:04.389+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2025-05-12T22:24:04.418+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:04.418+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:24:04.451+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:04.451+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T22:24:04.549+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.195 seconds

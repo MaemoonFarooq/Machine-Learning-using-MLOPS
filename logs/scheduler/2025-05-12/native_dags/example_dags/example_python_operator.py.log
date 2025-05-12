@@ -298,3 +298,35 @@
 [2025-05-12T22:20:39.008+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:39.008+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:20:39.019+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:39.019+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
 [2025-05-12T22:20:39.191+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.216 seconds
+[2025-05-12T22:21:35.322+0500] {processor.py:157} INFO - Started process (PID=70030) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:21:35.324+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-05-12T22:21:35.326+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:35.326+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:21:35.334+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:35.334+0500] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-05-12T22:21:35.335+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:21:35.359+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:35.359+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:21:35.371+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:35.371+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-05-12T22:21:35.468+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.151 seconds
+[2025-05-12T22:22:28.766+0500] {processor.py:157} INFO - Started process (PID=70171) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:22:28.767+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-05-12T22:22:28.768+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:28.768+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:22:28.776+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:28.776+0500] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-05-12T22:22:28.777+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:22:28.792+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:28.792+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:22:28.801+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:28.801+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-05-12T22:22:28.899+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.136 seconds
+[2025-05-12T22:23:22.400+0500] {processor.py:157} INFO - Started process (PID=70262) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:23:22.401+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-05-12T22:23:22.402+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:22.401+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:23:22.409+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:22.409+0500] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-05-12T22:23:22.409+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:23:22.423+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:22.423+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:23:22.432+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:22.432+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-05-12T22:23:22.520+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.123 seconds
+[2025-05-12T22:24:15.699+0500] {processor.py:157} INFO - Started process (PID=70461) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:24:15.709+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2025-05-12T22:24:15.710+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:15.709+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:24:15.717+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:15.717+0500] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2025-05-12T22:24:15.718+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2025-05-12T22:24:15.732+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:15.732+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:24:15.741+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:15.741+0500] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2025-05-12T22:24:15.828+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.131 seconds

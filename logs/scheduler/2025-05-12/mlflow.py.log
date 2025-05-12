@@ -317,3 +317,24 @@
 [2025-05-12T22:21:26.358+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:26.358+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:21:26.376+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:21:26.376+0500] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
 [2025-05-12T22:21:26.457+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py took 2.647 seconds
+[2025-05-12T22:22:17.485+0500] {processor.py:157} INFO - Started process (PID=70146) to work on /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:22:17.486+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py for tasks to queue
+[2025-05-12T22:22:17.487+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:17.486+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:22:19.796+0500] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:22:19.805+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:19.804+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:22:19.822+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:19.822+0500] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-05-12T22:22:19.899+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py took 2.416 seconds
+[2025-05-12T22:23:10.959+0500] {processor.py:157} INFO - Started process (PID=70239) to work on /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:23:10.977+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py for tasks to queue
+[2025-05-12T22:23:10.979+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:10.979+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:23:13.707+0500] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:23:13.720+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:13.719+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:23:13.738+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:13.738+0500] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-05-12T22:23:13.830+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py took 2.874 seconds
+[2025-05-12T22:24:05.301+0500] {processor.py:157} INFO - Started process (PID=70416) to work on /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:24:05.319+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py for tasks to queue
+[2025-05-12T22:24:05.320+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:05.320+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:24:07.845+0500] {processor.py:839} INFO - DAG(s) dict_keys(['data_pipeline_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py
+[2025-05-12T22:24:07.855+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:07.854+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:24:07.873+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:24:07.873+0500] {dag.py:3722} INFO - Setting next_dagrun for data_pipeline_dag to None, run_after=None
+[2025-05-12T22:24:07.960+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/dags/mlflow.py took 2.662 seconds

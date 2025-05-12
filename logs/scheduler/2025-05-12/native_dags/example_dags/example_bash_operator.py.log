@@ -191,3 +191,17 @@
 [2025-05-12T22:20:53.750+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:53.750+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T22:20:53.766+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:20:53.766+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
 [2025-05-12T22:20:53.865+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.148 seconds
+[2025-05-12T22:22:16.755+0500] {processor.py:157} INFO - Started process (PID=70145) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:22:16.768+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-05-12T22:22:16.769+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:16.769+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:22:16.780+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:22:16.801+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:16.801+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:22:16.820+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:22:16.820+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T22:22:16.930+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.177 seconds
+[2025-05-12T22:23:36.402+0500] {processor.py:157} INFO - Started process (PID=70285) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:23:36.414+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2025-05-12T22:23:36.414+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:36.414+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:23:36.430+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py
+[2025-05-12T22:23:36.470+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:36.469+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:23:36.496+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:23:36.496+0500] {dag.py:3722} INFO - Setting next_dagrun for example_bash_operator to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T22:23:36.591+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_bash_operator.py took 0.191 seconds
