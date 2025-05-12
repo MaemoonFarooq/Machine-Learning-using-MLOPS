@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def data_collection():
-# Set your API key and city
+    # Set your API key and city
     API_KEY = 'aa678ab5719073097f21e6ffecc8aae1'
     CITY = 'Lahore'
     BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast'
@@ -52,4 +52,3 @@ def data_collection():
     else:
         print(f"❌ Failed to fetch data. Status code: {response.status_code}")
         print(response.text)
-    

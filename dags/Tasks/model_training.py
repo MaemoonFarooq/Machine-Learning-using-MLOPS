@@ -7,7 +7,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import numpy as np
+
 mlflow.set_tracking_uri("http://localhost:5000")
+
 
 def model_training():
     try:
