@@ -1,0 +1,28 @@
+[2025-05-12T21:55:52.725+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline_dag.model_training manual__2025-05-12T16:55:09.417454+00:00 [queued]>
+[2025-05-12T21:55:52.730+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline_dag.model_training manual__2025-05-12T16:55:09.417454+00:00 [queued]>
+[2025-05-12T21:55:52.731+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-05-12T21:55:52.851+0500] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): model_training> on 2025-05-12 16:55:09.417454+00:00
+[2025-05-12T21:55:52.858+0500] {standard_task_runner.py:57} INFO - Started process 65102 to run task
+[2025-05-12T21:55:52.861+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline_dag', 'model_training', 'manual__2025-05-12T16:55:09.417454+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/mlflow.py', '--cfg-path', '/tmp/tmpwb__awsb']
+[2025-05-12T21:55:52.861+0500] {standard_task_runner.py:85} INFO - Job 33: Subtask model_training
+[2025-05-12T21:55:52.988+0500] {task_command.py:416} INFO - Running <TaskInstance: data_pipeline_dag.model_training manual__2025-05-12T16:55:09.417454+00:00 [running]> on host maemoon-Inspiron-15-3567
+[2025-05-12T21:55:53.267+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline_dag' AIRFLOW_CTX_TASK_ID='model_training' AIRFLOW_CTX_EXECUTION_DATE='2025-05-12T16:55:09.417454+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-12T16:55:09.417454+00:00'
+[2025-05-12T21:55:53.442+0500] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/maemoon/Documents/MLOPS_Project/dags/Tasks/model_training.py", line 33, in model_training
+    rmse = mean_squared_error(y, y_pred, squared=False)
+  File "/home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 194, in wrapper
+    params = func_sig.bind(*args, **kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3186, in bind
+    return self._bind(args, kwargs)
+  File "/usr/lib/python3.10/inspect.py", line 3175, in _bind
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'squared'
+[2025-05-12T21:55:53.491+0500] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=data_pipeline_dag, task_id=model_training, execution_date=20250512T165509, start_date=20250512T165552, end_date=20250512T165553
+[2025-05-12T21:55:53.606+0500] {standard_task_runner.py:104} ERROR - Failed to execute job 33 for task model_training (got an unexpected keyword argument 'squared'; 65102)
+[2025-05-12T21:55:53.635+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-05-12T21:55:53.654+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

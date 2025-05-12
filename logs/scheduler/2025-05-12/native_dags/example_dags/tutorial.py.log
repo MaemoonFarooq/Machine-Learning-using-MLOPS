@@ -37,3 +37,108 @@
 [2025-05-12T21:32:29.706+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:29.706+0500] {dag.py:2941} INFO - Sync 1 DAGs
 [2025-05-12T21:32:29.722+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:29.722+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:32:29.722361+00:00, run_after=2025-05-12T16:32:29.722361+00:00
 [2025-05-12T21:32:29.814+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.180 seconds
+[2025-05-12T21:33:44.496+0500] {processor.py:157} INFO - Started process (PID=59367) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:33:44.516+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:33:44.517+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:33:44.516+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:33:44.525+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:33:44.542+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:33:44.542+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:33:44.565+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:33:44.565+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:33:44.564878+00:00, run_after=2025-05-12T16:33:44.564878+00:00
+[2025-05-12T21:33:44.657+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.164 seconds
+[2025-05-12T21:34:30.596+0500] {processor.py:157} INFO - Started process (PID=59440) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:34:30.597+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:34:30.598+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:34:30.597+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:34:30.604+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:34:30.618+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:34:30.617+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:34:30.635+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:34:30.634+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:34:30.634743+00:00, run_after=2025-05-12T16:34:30.634743+00:00
+[2025-05-12T21:34:30.736+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.142 seconds
+[2025-05-12T21:35:19.218+0500] {processor.py:157} INFO - Started process (PID=59619) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:35:19.219+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:35:19.220+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:35:19.220+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:35:19.226+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:35:19.240+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:35:19.239+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:35:19.255+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:35:19.255+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:35:19.255227+00:00, run_after=2025-05-12T16:35:19.255227+00:00
+[2025-05-12T21:35:19.373+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.159 seconds
+[2025-05-12T21:36:06.576+0500] {processor.py:157} INFO - Started process (PID=59789) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:36:06.578+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:36:06.579+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:36:06.579+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:36:06.595+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:36:06.615+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:36:06.615+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:36:06.637+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:36:06.637+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:36:06.636950+00:00, run_after=2025-05-12T16:36:06.636950+00:00
+[2025-05-12T21:36:06.743+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.173 seconds
+[2025-05-12T21:52:01.469+0500] {processor.py:157} INFO - Started process (PID=63454) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:52:01.510+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:52:01.511+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:52:01.510+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:52:01.520+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:52:01.538+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:52:01.538+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:52:01.561+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:52:01.561+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:52:01.561139+00:00, run_after=2025-05-12T16:52:01.561139+00:00
+[2025-05-12T21:52:01.692+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.226 seconds
+[2025-05-12T21:53:21.233+0500] {processor.py:157} INFO - Started process (PID=64034) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:53:21.235+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:53:21.236+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:53:21.235+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:53:21.244+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:53:21.260+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:53:21.260+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:53:21.281+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:53:21.281+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:53:21.281400+00:00, run_after=2025-05-12T16:53:21.281400+00:00
+[2025-05-12T21:53:21.416+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.185 seconds
+[2025-05-12T21:54:19.828+0500] {processor.py:157} INFO - Started process (PID=64173) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:54:19.829+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:54:19.829+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:54:19.829+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:54:19.835+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:54:19.847+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:54:19.847+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:54:19.863+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:54:19.863+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:54:19.862876+00:00, run_after=2025-05-12T16:54:19.862876+00:00
+[2025-05-12T21:54:19.973+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.148 seconds
+[2025-05-12T21:55:58.774+0500] {processor.py:157} INFO - Started process (PID=65170) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:55:58.775+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:55:58.776+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:55:58.775+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:55:58.781+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:55:58.794+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:55:58.793+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:55:58.809+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:55:58.809+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:55:58.809076+00:00, run_after=2025-05-12T16:55:58.809076+00:00
+[2025-05-12T21:55:58.940+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.168 seconds
+[2025-05-12T21:56:41.916+0500] {processor.py:157} INFO - Started process (PID=65297) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:56:41.917+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:56:41.917+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:56:41.917+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:56:41.923+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:56:41.936+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:56:41.936+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:56:41.951+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:56:41.951+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:56:41.950945+00:00, run_after=2025-05-12T16:56:41.950945+00:00
+[2025-05-12T21:56:42.039+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.126 seconds
+[2025-05-12T21:57:27.831+0500] {processor.py:157} INFO - Started process (PID=65397) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:57:27.831+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:57:27.832+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:57:27.832+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:57:27.838+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:57:27.850+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:57:27.850+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:57:27.866+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:57:27.866+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:57:27.865785+00:00, run_after=2025-05-12T16:57:27.865785+00:00
+[2025-05-12T21:57:27.960+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.131 seconds
+[2025-05-12T21:58:22.437+0500] {processor.py:157} INFO - Started process (PID=65533) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:58:22.437+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:58:22.438+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:58:22.438+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:58:22.444+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:58:22.457+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:58:22.457+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:58:22.472+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:58:22.472+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:58:22.472115+00:00, run_after=2025-05-12T16:58:22.472115+00:00
+[2025-05-12T21:58:22.592+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.158 seconds
+[2025-05-12T21:59:17.070+0500] {processor.py:157} INFO - Started process (PID=65742) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:59:17.071+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T21:59:17.071+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:59:17.071+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:59:17.077+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T21:59:17.089+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:59:17.089+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:59:17.104+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:59:17.104+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T16:59:17.104520+00:00, run_after=2025-05-12T16:59:17.104520+00:00
+[2025-05-12T21:59:17.208+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds
+[2025-05-12T22:00:20.351+0500] {processor.py:157} INFO - Started process (PID=65962) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:00:20.373+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T22:00:20.374+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:00:20.373+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:00:20.379+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:00:20.392+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:00:20.391+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:00:20.406+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:00:20.406+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T17:00:20.406572+00:00, run_after=2025-05-12T17:00:20.406572+00:00
+[2025-05-12T22:00:20.515+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.167 seconds
+[2025-05-12T22:01:28.361+0500] {processor.py:157} INFO - Started process (PID=66208) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:01:28.362+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T22:01:28.362+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:01:28.362+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:01:28.368+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:01:28.380+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:01:28.380+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:01:28.398+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:01:28.398+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T17:01:28.398008+00:00, run_after=2025-05-12T17:01:28.398008+00:00
+[2025-05-12T22:01:28.512+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.153 seconds
+[2025-05-12T22:03:35.387+0500] {processor.py:157} INFO - Started process (PID=67289) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:03:35.388+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-05-12T22:03:35.389+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:03:35.389+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:03:35.395+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2025-05-12T22:03:35.411+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:03:35.411+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T22:03:35.431+0500] {logging_mixin.py:151} INFO - [2025-05-12T22:03:35.431+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial to 2025-05-11T17:03:35.430932+00:00, run_after=2025-05-12T17:03:35.430932+00:00
+[2025-05-12T22:03:35.555+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.171 seconds
