@@ -1,13 +1,18 @@
 # dags/data_pipeline_dag.py
+
+from datetime import datetime
+
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from datetime import datetime
 
 # Import the functions from the separate task files
 from Tasks.datacollection import data_collection
 from Tasks.preprocess import preprocess_data
 from Tasks.tracking import track_raw_data, track_processed_data, track_model
-from Tasks.model_training import model_training as train_model  # Avoid name conflict
+# Avoid name conflict
+from Tasks.model_training import (
+    model_training as train_model
+)
 
 # Define the DAG
 dag = DAG(
@@ -43,7 +48,7 @@ track_processed_task = PythonOperator(
     dag=dag,
 )
 
-model_training_task = PythonOperator(  # Renamed to avoid name conflict
+model_training_task = PythonOperator(
     task_id='model_training',
     python_callable=train_model,
     dag=dag,
@@ -55,6 +60,6 @@ track_model_task = PythonOperator(
     dag=dag,
 )
 
-
 # Set task dependencies
-collect_data_task >> track_raw_task >> preprocess_data_task >> track_processed_task >> model_training_task >> track_model_task
+collect_data_task >> track_raw_task >> preprocess_data_task >> \
+    track_processed_task >> model_training_task >> track_model_task

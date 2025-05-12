@@ -1,6 +1,7 @@
 import subprocess
 import mlflow
 import mlflow.artifacts
+
 mlflow.set_tracking_uri("http://localhost:5000")
 
 
@@ -14,6 +15,7 @@ def track_raw_data():
         mlflow.log_artifact('WeatherData/Lahore_Forecast.csv')
         print("Raw data tracked with MLflow")
 
+
 def track_processed_data():
     # Track the processed data with DVC
     subprocess.run(['dvc', 'add', 'PreprocessedWeatherData/Processed_Lahore_Forecast.csv'])
@@ -23,6 +25,7 @@ def track_processed_data():
     with mlflow.start_run(run_name="data_tracking"):
         mlflow.log_artifact('PreprocessedWeatherData/Processed_Lahore_Forecast.csv')
         print("Processed data tracked with MLflow")
+
 
 def track_model():
     # Track the model with DVC
