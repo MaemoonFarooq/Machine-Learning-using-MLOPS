@@ -1,0 +1,18 @@
+AIRFLOW_VERSION=2.8.1
+PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
+
+# For Linux/macOS:
+pip install "apache-airflow==${AIRFLOW_VERSION}" \
+    --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+
+dvc remote add -d myremote /home/maemoon/Documents/LocalStorage
+
+airflow db init
+
+airflow users create \
+    --username admin \
+    --password admin \
+    --firstname Firstname \
+    --lastname Lastname \
+    --role Admin \
+    --email admin@example.com

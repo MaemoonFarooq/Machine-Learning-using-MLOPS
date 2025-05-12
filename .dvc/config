@@ -1,0 +1,6 @@
+[core]
+    remote = local_remote
+['remote "myremote"']
+    url = /home/maemoon/Documents/LocalStorage
+['remote "local_remote"']
+    url = /home/maemoon/Documents/LocalStorage
