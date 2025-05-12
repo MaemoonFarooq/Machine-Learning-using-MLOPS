@@ -8,7 +8,7 @@ def model_training():
         from sklearn.preprocessing import LabelEncoder
 
         # Load CSV
-        df = pd.read_csv('/home/maemoon/Documents/University/MLOPS/Assignments/A3/MLOPSA3/PreprocessedWeatherData/Processed_Lahore_Forecast.csv')
+        df = pd.read_csv('/home/maemoon/Documents/MLOPS_Project/PreprocessedWeatherData/Processed_Lahore_Forecast.csv')
 
         # Drop DateTime
         df = df.drop(columns=['DateTime'])

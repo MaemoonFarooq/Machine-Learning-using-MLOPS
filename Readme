@@ -1,3 +1,36 @@
 ML-OPS Project
+
+
+# For Airflow 2.7.2 (latest stable as of 2023)
+AIRFLOW_VERSION=2.7.2
+PYTHON_VERSION=3.10  # Ubuntu 22.04 default Python
+
+pip install "apache-airflow==${AIRFLOW_VERSION}" \
+--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+
+
+# Set AIRFLOW_HOME (default is ~/airflow)
+export AIRFLOW_HOME=~/airflow
+
+# Initialize database
+airflow db init
+
+# Create admin user
+airflow users create \
+    --username admin \
+    --firstname Admin \
+    --lastname User \
+    --role Admin \
+    --email admin@example.com \
+    --password admin  # Change this!
+
+
+# Start webserver (port 8080)
+airflow webserver --port 8080 -D
+
+# Start scheduler
+airflow scheduler -D
+
+
 Muhammad Maemoon Farooq
 Muhammad Ammar

@@ -1,0 +1,25 @@
+[2025-05-12T21:24:42.790+0500] {processor.py:157} INFO - Started process (PID=56353) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:24:42.791+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-12T21:24:42.792+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:42.791+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:24:42.799+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:24:43.164+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.163+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:43.258+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.258+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:43.336+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.336+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:43.336+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.336+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:24:43.346+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.346+0500] {dag.py:2963} INFO - Creating ORM DAG for example_branch_labels
+[2025-05-12T21:24:43.359+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:43.358+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:24:43.508+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.720 seconds
+[2025-05-12T21:30:39.352+0500] {processor.py:157} INFO - Started process (PID=57992) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:30:39.372+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-12T21:30:39.373+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:39.373+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:30:39.380+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:30:39.394+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:39.394+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:30:39.411+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:39.410+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:30:39.511+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.161 seconds
+[2025-05-12T21:32:03.350+0500] {processor.py:157} INFO - Started process (PID=58633) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:32:03.395+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-05-12T21:32:03.396+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:03.395+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:32:03.402+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-05-12T21:32:03.424+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:03.424+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:32:03.441+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:03.441+0500] {dag.py:3722} INFO - Setting next_dagrun for example_branch_labels to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:32:03.550+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_branch_labels.py took 0.205 seconds

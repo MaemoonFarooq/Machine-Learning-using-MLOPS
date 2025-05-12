@@ -1,0 +1,54 @@
+[2025-05-12T21:23:26.640+0500] {processor.py:157} INFO - Started process (PID=55658) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:23:26.641+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-05-12T21:23:26.641+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.641+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:23:26.660+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:23:26.984+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.984+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:27.085+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.084+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:27.184+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.184+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:27.184+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.184+0500] {dag.py:2941} INFO - Sync 3 DAGs
+[2025-05-12T21:23:27.193+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.193+0500] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator
+[2025-05-12T21:23:27.194+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.194+0500] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2025-05-12T21:23:27.194+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.194+0500] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2025-05-12T21:23:27.202+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.201+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2025-05-12T21:23:27.202+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.202+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:23:27.202+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.202+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:23:27.209+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.209+0500] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-05-12T21:23:27.213+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.212+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:23:27.215+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:27.214+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:23:27.410+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.772 seconds
+[2025-05-12T21:30:11.620+0500] {processor.py:157} INFO - Started process (PID=57860) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:30:11.645+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-05-12T21:30:11.646+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.645+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:30:11.666+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:30:11.683+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.683+0500] {dag.py:2941} INFO - Sync 3 DAGs
+[2025-05-12T21:30:11.701+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.701+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2025-05-12T21:30:11.705+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.705+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:30:11.707+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.707+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:30:11.739+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.738+0500] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-05-12T21:30:11.744+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.743+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:30:11.744+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:11.744+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:30:11.831+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.213 seconds
+[2025-05-12T21:31:04.028+0500] {processor.py:157} INFO - Started process (PID=58023) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:31:04.035+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-05-12T21:31:04.036+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.035+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:31:04.053+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:31:04.066+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.066+0500] {dag.py:2941} INFO - Sync 3 DAGs
+[2025-05-12T21:31:04.081+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.080+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2025-05-12T21:31:04.083+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.083+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:31:04.084+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.084+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:31:04.088+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.088+0500] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-05-12T21:31:04.092+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.092+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:31:04.092+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:04.092+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:31:04.204+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.178 seconds
+[2025-05-12T21:32:50.518+0500] {processor.py:157} INFO - Started process (PID=59186) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:32:50.531+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-05-12T21:32:50.532+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.531+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:32:50.551+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-05-12T21:32:50.564+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.564+0500] {dag.py:2941} INFO - Sync 3 DAGs
+[2025-05-12T21:32:50.580+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.580+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2025-05-12T21:32:50.583+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.583+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:32:50.584+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.584+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:32:50.590+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.590+0500] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-05-12T21:32:50.593+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.593+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-05-12T21:32:50.593+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:50.593+0500] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-05-12T21:32:50.688+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.173 seconds

@@ -1,0 +1,32 @@
+[2025-05-12T21:23:25.786+0500] {processor.py:157} INFO - Started process (PID=55641) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:23:25.787+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-12T21:23:25.787+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:25.787+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:23:25.796+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:23:26.084+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.084+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:26.162+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.162+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:26.273+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.273+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:23:26.273+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.273+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:23:26.282+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.282+0500] {dag.py:2963} INFO - Creating ORM DAG for example_skip_dag
+[2025-05-12T21:23:26.289+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:23:26.289+0500] {dag.py:3722} INFO - Setting next_dagrun for example_skip_dag to 2025-05-11T16:23:26.288997+00:00, run_after=2025-05-12T16:23:26.288997+00:00
+[2025-05-12T21:23:26.403+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.620 seconds
+[2025-05-12T21:30:10.263+0500] {processor.py:157} INFO - Started process (PID=57815) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:30:10.271+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-12T21:30:10.272+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:10.272+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:30:10.281+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:30:10.298+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:10.298+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:30:10.316+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:10.316+0500] {dag.py:3722} INFO - Setting next_dagrun for example_skip_dag to 2025-05-11T16:30:10.315871+00:00, run_after=2025-05-12T16:30:10.315871+00:00
+[2025-05-12T21:30:10.425+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.165 seconds
+[2025-05-12T21:31:02.722+0500] {processor.py:157} INFO - Started process (PID=58022) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:31:02.723+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-12T21:31:02.723+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:02.723+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:31:02.730+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:31:02.745+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:02.745+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:31:02.765+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:02.765+0500] {dag.py:3722} INFO - Setting next_dagrun for example_skip_dag to 2025-05-11T16:31:02.764817+00:00, run_after=2025-05-12T16:31:02.764817+00:00
+[2025-05-12T21:31:02.865+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.146 seconds
+[2025-05-12T21:32:49.082+0500] {processor.py:157} INFO - Started process (PID=59171) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:32:49.103+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-05-12T21:32:49.104+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:49.104+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:32:49.110+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-05-12T21:32:49.127+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:49.127+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:32:49.144+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:49.144+0500] {dag.py:3722} INFO - Setting next_dagrun for example_skip_dag to 2025-05-11T16:32:49.144164+00:00, run_after=2025-05-12T16:32:49.144164+00:00
+[2025-05-12T21:32:49.391+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.312 seconds

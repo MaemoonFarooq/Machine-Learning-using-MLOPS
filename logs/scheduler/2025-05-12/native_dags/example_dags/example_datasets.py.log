@@ -1,0 +1,60 @@
+[2025-05-12T21:24:29.316+0500] {processor.py:157} INFO - Started process (PID=56333) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:24:29.317+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2025-05-12T21:24:29.318+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:29.317+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:24:29.326+0500] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_consumes_1_never_scheduled', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_produces_1', 'dataset_produces_2', 'dataset_consumes_1']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:24:29.615+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:29.614+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:29.714+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:29.714+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:29.815+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:29.814+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.070+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.070+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.170+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.169+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.270+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.270+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.492+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.492+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.581+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.581+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.670+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.669+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.870+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.869+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:30.970+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:30.969+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.048+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.047+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.281+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.281+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.381+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.381+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.503+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.503+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.692+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.692+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.781+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.781+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.881+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.881+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:31.881+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.881+0500] {dag.py:2941} INFO - Sync 6 DAGs
+[2025-05-12T21:24:31.890+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.890+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1_never_scheduled
+[2025-05-12T21:24:31.891+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.891+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_produces_1
+[2025-05-12T21:24:31.891+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.891+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1_and_2
+[2025-05-12T21:24:31.891+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.891+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_produces_2
+[2025-05-12T21:24:31.892+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.892+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_unknown_never_scheduled
+[2025-05-12T21:24:31.892+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.892+0500] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1
+[2025-05-12T21:24:31.899+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.898+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2025-05-12T21:24:31.899+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.899+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2025-05-12T21:24:31.900+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.900+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2025-05-12T21:24:31.901+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.901+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2025-05-12T21:24:31.902+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.902+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_1 to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:24:31.903+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:31.903+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2025-05-12T21:24:32.055+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 2.742 seconds
+[2025-05-12T21:30:31.158+0500] {processor.py:157} INFO - Started process (PID=57975) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:30:31.159+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2025-05-12T21:30:31.160+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.160+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:30:31.174+0500] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_never_scheduled', 'dataset_produces_2', 'dataset_produces_1', 'dataset_consumes_1', 'dataset_consumes_1_and_2']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:30:31.213+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.213+0500] {dag.py:2941} INFO - Sync 6 DAGs
+[2025-05-12T21:30:31.241+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.241+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2025-05-12T21:30:31.244+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.244+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2025-05-12T21:30:31.246+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.245+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2025-05-12T21:30:31.246+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.246+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2025-05-12T21:30:31.250+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.250+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_1 to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:30:31.252+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:31.252+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2025-05-12T21:30:31.393+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.238 seconds
+[2025-05-12T21:31:55.273+0500] {processor.py:157} INFO - Started process (PID=58611) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:31:55.292+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2025-05-12T21:31:55.293+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.292+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:31:55.300+0500] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_produces_2', 'dataset_consumes_unknown_never_scheduled', 'dataset_produces_1', 'dataset_consumes_1_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_consumes_1']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-12T21:31:55.324+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.324+0500] {dag.py:2941} INFO - Sync 6 DAGs
+[2025-05-12T21:31:55.341+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.341+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2025-05-12T21:31:55.343+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.343+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2025-05-12T21:31:55.344+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.344+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2025-05-12T21:31:55.344+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.344+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2025-05-12T21:31:55.346+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.346+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_1 to 2025-05-11T00:00:00+00:00, run_after=2025-05-12T00:00:00+00:00
+[2025-05-12T21:31:55.347+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:31:55.347+0500] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2025-05-12T21:31:55.527+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.256 seconds

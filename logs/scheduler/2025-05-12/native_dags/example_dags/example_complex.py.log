@@ -1,0 +1,25 @@
+[2025-05-12T21:24:46.977+0500] {processor.py:157} INFO - Started process (PID=56359) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:24:46.978+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-12T21:24:46.979+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:46.978+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:24:46.988+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:24:47.347+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.346+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:47.447+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.446+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:47.547+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.546+0500] {manager.py:499} INFO - Created Permission View: %s
+[2025-05-12T21:24:47.547+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.547+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:24:47.557+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.557+0500] {dag.py:2963} INFO - Creating ORM DAG for example_complex
+[2025-05-12T21:24:47.558+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:24:47.558+0500] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-12T21:24:47.713+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.738 seconds
+[2025-05-12T21:30:41.836+0500] {processor.py:157} INFO - Started process (PID=57994) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:30:41.841+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-12T21:30:41.842+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:41.842+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:30:41.857+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:30:41.894+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:41.894+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:30:41.909+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:30:41.909+0500] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-12T21:30:42.001+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.169 seconds
+[2025-05-12T21:32:05.920+0500] {processor.py:157} INFO - Started process (PID=58640) to work on /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:32:05.961+0500] {processor.py:829} INFO - Processing file /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-05-12T21:32:05.962+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:05.962+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:32:05.975+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2025-05-12T21:32:06.002+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:06.002+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-12T21:32:06.011+0500] {logging_mixin.py:151} INFO - [2025-05-12T21:32:06.011+0500] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-05-12T21:32:06.107+0500] {processor.py:179} INFO - Processing /home/maemoon/Documents/MLOPS_Project/env/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.190 seconds
