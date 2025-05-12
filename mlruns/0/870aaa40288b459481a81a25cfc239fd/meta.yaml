@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/870aaa40288b459481a81a25cfc239fd/artifacts
+end_time: 1747068752900
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 870aaa40288b459481a81a25cfc239fd
+run_name: data_tracking
+run_uuid: 870aaa40288b459481a81a25cfc239fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747068752875
+status: 4
+tags: []
+user_id: maemoon

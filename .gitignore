@@ -16,3 +16,8 @@ env/
 # Ignore environment variables
 .env
 .del/
+
+./PreprocessedWeatherData
+./models
+./WeatherData
+./logs

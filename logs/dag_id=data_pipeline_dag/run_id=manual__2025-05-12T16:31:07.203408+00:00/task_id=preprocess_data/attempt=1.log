@@ -1,0 +1,14 @@
+[2025-05-12T21:31:23.859+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_pipeline_dag.preprocess_data manual__2025-05-12T16:31:07.203408+00:00 [queued]>
+[2025-05-12T21:31:23.864+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_pipeline_dag.preprocess_data manual__2025-05-12T16:31:07.203408+00:00 [queued]>
+[2025-05-12T21:31:23.864+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-05-12T21:31:23.983+0500] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): preprocess_data> on 2025-05-12 16:31:07.203408+00:00
+[2025-05-12T21:31:23.988+0500] {standard_task_runner.py:57} INFO - Started process 58268 to run task
+[2025-05-12T21:31:23.993+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'data_pipeline_dag', 'preprocess_data', 'manual__2025-05-12T16:31:07.203408+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/mlflow.py', '--cfg-path', '/tmp/tmpdjezchl7']
+[2025-05-12T21:31:23.994+0500] {standard_task_runner.py:85} INFO - Job 17: Subtask preprocess_data
+[2025-05-12T21:31:24.219+0500] {task_command.py:416} INFO - Running <TaskInstance: data_pipeline_dag.preprocess_data manual__2025-05-12T16:31:07.203408+00:00 [running]> on host maemoon-Inspiron-15-3567
+[2025-05-12T21:31:24.479+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_pipeline_dag' AIRFLOW_CTX_TASK_ID='preprocess_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-12T16:31:07.203408+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-12T16:31:07.203408+00:00'
+[2025-05-12T21:31:24.487+0500] {logging_mixin.py:151} INFO - Data Preprocessed and Saved as processed_data.csv
+[2025-05-12T21:31:24.488+0500] {python.py:194} INFO - Done. Returned value was: None
+[2025-05-12T21:31:24.494+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=data_pipeline_dag, task_id=preprocess_data, execution_date=20250512T163107, start_date=20250512T163123, end_date=20250512T163124
+[2025-05-12T21:31:24.686+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-05-12T21:31:24.710+0500] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
