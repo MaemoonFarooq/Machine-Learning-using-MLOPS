@@ -1,5 +1,10 @@
 ML-OPS Project
 
+FLOWS
+GITHUB PUSH->FLAKE8->MERGETODEV
+DAGS>DVC>AIRFLOW>MLFLOW
+JENKINS>DOCKER
+
 -- Airflow login password
  -username admin 
  -password admin
@@ -11,5 +16,7 @@ ML-OPS Project
 -- Commands to run MLflow
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000
 
+GROUP MEMBERS
 Muhammad Maemoon Farooq
 Muhammad Ammar
+
